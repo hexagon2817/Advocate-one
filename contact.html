@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JusticeLegal Contact</title>
+
+
+    <link rel="icon" type="image/png" href="./assets/fevicon.png">
+
+    <link rel="stylesheet" href="./fontawesome/css/all.min.css" />
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css" />
+
+    <link rel="stylesheet" href="./css-folder/contact.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="./index.html">
+          <i class="fas fa-scale-balanced scale"></i>
+          JusticeLegal
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fas fa-bars hamburger-icon"></i>
+          <i class="fas fa-times close-icon"></i>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html">About Us</a>
+            </li>
+            <!-- <li class="nav-item"><a class="nav-link" href="#">Practice Areas</a></li> -->
+            <li class="nav-item"><a class="nav-link" href="#">Attorneys</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Case Results</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="./contact.html">Contact</a>
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link contact-btn" href="#">
+                <i class="fas fa-phone-alt me-2"></i>Contact Us
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <!-- Modern Hero -->
+      <section class="modern-hero">
+        <div class="hero-bg-pattern"></div>
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-8">
+              <h1 class="hero-title">
+                Connect With <span>Legal Excellence</span>
+              </h1>
+              <p class="lead mb-4" style="font-size: 1.3rem; opacity: 0.9">
+                Your journey to justice begins with a conversation. Reach out to
+                our team of legal experts for personalized guidance.
+              </p>
+              <div class="d-flex gap-3">
+                <a href="#contact-form" class="btn btn-light btn-lg px-4 py-3">
+                  <i class="fas fa-comment-alt me-2"></i> Send Message
+                </a>
+                <a
+                  href="tel:+91 8232066487"
+                  class="btn btn-outline-light btn-lg px-4 py-3"
+                >
+                  <i class="fas fa-phone me-2"></i> Call Now
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Grid -->
+      <section class="contact-grid">
+        <div class="container">
+          <div class="row g-4">
+            <!-- Phone -->
+            <div class="col-lg-4 col-md-6">
+              <div class="contact-card">
+                <div class="card-icon">
+                  <i class="fas fa-phone-alt"></i>
+                </div>
+                <h3>Phone Support</h3>
+                <p class="text-muted mb-4">
+                  Direct line to our legal team for immediate assistance and
+                  consultations.
+                </p>
+                <a href="tel:+91 8232066487" class="contact-detail">
+                  <i class="fas fa-phone me-2"></i> +91 8232066487
+                </a>
+                <small class="text-muted"
+                  >Mon-Fri: 9AM - 6PM | Sat: 10AM - 2PM</small
+                >
+              </div>
+            </div>
+
+            <!-- Email -->
+            <div class="col-lg-4 col-md-6">
+              <div class="contact-card">
+                <div class="card-icon">
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <h3>Email Us</h3>
+                <p class="text-muted mb-4">
+                  Send detailed inquiries. We respond within 24 hours with
+                  comprehensive guidance.
+                </p>
+                <a href="mailto:info@justicelegal.com" class="contact-detail">
+                  <i class="fas fa-envelope me-2"></i> info@justicelegal.com
+                </a>
+                <small class="text-muted"
+                  >Confidential & Secure Communication</small
+                >
+              </div>
+            </div>
+
+            <!-- Office -->
+            <div class="col-lg-4 col-md-6">
+              <div class="contact-card">
+                <div class="card-icon">
+                  <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <h3>Visit Office</h3>
+                <p class="text-muted mb-4">
+                  Schedule an in-person consultation at our state-of-the-art
+                  legal center.
+                </p>
+                <a href="#map" class="contact-detail">
+                  <i class="fas fa-map-pin me-2"></i> 123 Justice Tower
+                </a>
+                <small class="text-muted">By Appointment | Free Parking</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Modern Form Section -->
+      <section class="modern-form-section" id="contact-form">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-12">
+              <div class="form-wrapper">
+                <div class="row g-0">
+                  <div class="col-lg-8">
+                    <div class="form-side">
+                      <h2 class="form-title">Send Your Message</h2>
+                      <p class="text-muted mb-4">
+                        Fill out the form below and our legal team will reach
+                        out to discuss your case.
+                      </p>
+
+                      <form id="legalContactForm">
+                        <div class="row">
+                          <div class="col-md-6">
+                            <div class="form-group">
+                              <label class="form-label">Full Name *</label>
+                              <input
+                                type="text"
+                                class="form-control"
+                                placeholder="John Smith"
+                                required
+                              />
+                            </div>
+                          </div>
+                          <div class="col-md-6">
+                            <div class="form-group">
+                              <label class="form-label">Email Address *</label>
+                              <input
+                                type="email"
+                                class="form-control"
+                                placeholder="john@example.com"
+                                required
+                              />
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="row">
+                          <div class="col-md-6">
+                            <div class="form-group">
+                              <label class="form-label">Phone Number</label>
+                              <input
+                                type="tel"
+                                class="form-control"
+                                placeholder="+91 8232066487"
+                              />
+                            </div>
+                          </div>
+                          <div class="col-md-6">
+                            <div class="form-group">
+                              <label class="form-label">Case Type *</label>
+                              <select class="form-control" required>
+                                <option value="">Select Case Type</option>
+                                <option>Criminal Defense</option>
+                                <option>Family Law</option>
+                                <option>Corporate Law</option>
+                                <option>Personal Injury</option>
+                                <option>Civil Rights</option>
+                                <option>Other</option>
+                              </select>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="form-group">
+                          <label class="form-label">Your Message *</label>
+                          <textarea
+                            class="form-control"
+                            rows="5"
+                            placeholder="Describe your legal situation..."
+                            required
+                          ></textarea>
+                        </div>
+
+                        <div class="form-check mb-4">
+                          <input
+                            class="form-check-input"
+                            type="checkbox"
+                            id="legalConsent"
+                            required
+                          />
+                          <label class="form-check-label" for="legalConsent">
+                            I agree to the terms and consent to legal
+                            consultation
+                          </label>
+                        </div>
+
+                        <button type="submit" class="submit-btn">
+                          <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                      </form>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4">
+                    <div class="visual-side">
+                      <h3 class="mb-4">Why Contact Us?</h3>
+
+                      <div class="d-flex align-items-center mb-3">
+                        <div class="rounded-circle bg-white text-dark p-2 me-3">
+                          <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <div>
+                          <h5 class="mb-0">Confidential Review</h5>
+                          <p class="mb-0 small">
+                            All consultations are completely confidential
+                          </p>
+                        </div>
+                      </div>
+
+                      <div class="d-flex align-items-center mb-3">
+                        <div class="rounded-circle bg-white text-dark p-2 me-3">
+                          <i class="fas fa-clock"></i>
+                        </div>
+                        <div>
+                          <h5 class="mb-0">24-Hour Response</h5>
+                          <p class="mb-0 small">
+                            Guaranteed response within one business day
+                          </p>
+                        </div>
+                      </div>
+
+                      <div class="d-flex align-items-center mb-3">
+                        <div class="rounded-circle bg-white text-dark p-2 me-3">
+                          <i class="fas fa-user-tie"></i>
+                        </div>
+                        <div>
+                          <h5 class="mb-0">Expert Assessment</h5>
+                          <p class="mb-0 small">
+                            Direct access to senior legal partners
+                          </p>
+                        </div>
+                      </div>
+
+                      <div class="mt-5">
+                        <h5>Direct Contact</h5>
+                        <p class="small mb-2">
+                          <i class="fas fa-phone me-2"></i> +91 8232066487
+                        </p>
+                        <p class="small mb-2">
+                          <i class="fas fa-envelope me-2"></i> legal@justice.com
+                        </p>
+                        <p class="small mb-0">
+                          <i class="fas fa-clock me-2"></i> Mon-Fri: 9AM-6PM
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Map Section
+      <section class="map-section" id="map">
+        <div class="container">
+          <h2 class="text-center mb-5" style="font-size: 3rem">
+            Find Our Office
+          </h2>
+
+          <div class="map-container">
+            <div
+              style="
+                width: 100%;
+                height: 100%;
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                position: relative;
+              "
+            >
+              <div class="map-overlay">
+                <h4 class="mb-3">
+                  <i class="fas fa-map-marker-alt text-warning me-2"></i>
+                  Justice Legal Center
+                </h4>
+                <p class="mb-2">123 Justice Tower, Suite 1500</p>
+                <p class="mb-3">Legal District, NY 10001</p>
+                <hr />
+                <p class="mb-2">
+                  <strong>Parking:</strong> Valet & Garage Available
+                </p>
+                <p class="mb-2">
+                  <strong>Metro:</strong> Red Line - Justice Station
+                </p>
+                <p class="mb-0">
+                  <strong>Accessibility:</strong> Fully ADA Compliant
+                </p>
+                <button class="btn btn-warning mt-3 w-100">
+                  <i class="fas fa-directions me-2"></i> Get Directions
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> -->
+
+      <!-- Hours Section -->
+      <section class="hours-section">
+        <div class="container">
+          <h2 class="text-center mb-5" style="color: white">Office Hours</h2>
+
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <div class="hours-card">
+                <div class="hour-item">
+                  <span>Monday - Friday</span>
+                  <span>9:00 AM - 6:00 PM</span>
+                </div>
+                <div class="hour-item">
+                  <span>Saturday</span>
+                  <span>10:00 AM - 2:00 PM</span>
+                </div>
+                <div class="hour-item">
+                  <span>Sunday</span>
+                  <span>Emergency Only</span>
+                </div>
+                <div class="hour-item">
+                  <span>24/7 Emergency Line</span>
+                  <span>(555) 911-LEGAL</span>
+                </div>
+                <div class="hour-item">
+                  <span>Virtual Consultations</span>
+                  <span>Available Daily</span>
+                </div>
+              </div>
+
+              <div class="text-center mt-4">
+                <p class="mb-0" style="opacity: 0.8">
+                  <i class="fas fa-info-circle me-2"></i>
+                  All consultations require prior appointment. Emergency
+                  services available 24/7.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Emergency Banner -->
+      <section class="emergency-banner">
+        <div class="container">
+          <div class="emergency-content">
+            <div>
+              <h3 class="mb-2">
+                <i class="fas fa-exclamation-triangle me-2"></i> Urgent Legal
+                Matter?
+              </h3>
+              <p class="mb-0">
+                Our emergency legal team is available 24/7 for immediate
+                assistance.
+              </p>
+            </div>
+            <div>
+              <a href="tel:+1555911LEGAL" class="emergency-btn">
+                <i class="fas fa-phone me-2"></i> CALL NOW: +91 8232066487
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Floating WhatsApp Button -->
+    <a
+      href="https://wa.me/919999999999?text=Hello%20I%20would%20like%20to%20book%20an%20Ayurveda%20consultation"
+      class="whatsapp-float"
+      target="_blank"
+      aria-label="Chat on WhatsApp"
+    >
+      <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- SIMPLE & ATTRACTIVE FOOTER -->
+    <footer class="simple-footer">
+      <div class="container">
+        <!-- Logo & Tagline -->
+        <a href="./index.html" style="text-decoration: none; color: inherit">
+          <div class="footer-logo">
+            <h3><i class="fas fa-scale-balanced"></i> JusticeLegal</h3>
+            <p class="footer-tagline">
+              Providing exceptional legal representation with integrity,
+              dedication, and a commitment to justice since 1998.
+            </p>
+          </div>
+        </a>
+
+        <!-- Call to Action -->
+        <!-- <div class="footer-cta">
+            <a href="#" class="cta-button">
+                <i class="fas fa-phone-alt"></i> Free Consultation
+            </a>
+        </div> -->
+
+        <!-- Navigation Links -->
+        <!-- <div class="footer-links">
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Services</a>
+          <a href="#">Attorneys</a>
+          <a href="#">Case Results</a>
+          <a href="#">Contact</a>
+        </div> -->
+
+        <!-- Contact Information -->
+        <div class="footer-contact">
+          <div class="contact-item">
+            <i class="fas fa-map-marker-alt"></i> 123 Justice Ave, City 10001
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-phone"></i> +91 8232066487
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i> info@justicelegal.com
+          </div>
+        </div>
+
+        <!-- Social Media -->
+        <div class="footer-social">
+          <a href="#" class="social-circle">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="#" class="social-circle">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="#" class="social-circle">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="#" class="social-circle">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+
+        <!-- Copyright -->
+        <div class="footer-bottom">
+          <p class="copyright">
+            &copy; 2023 Justice Legal Advocates. All rights reserved.
+            <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
+            <br />
+            <span
+              >Proudly developed by
+              <a href="https://designglobal.in/"
+                >Design Global Technology</a
+              ></span
+            >
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="./js-folder/contact.js"></script>
+  </body>
+</html>
